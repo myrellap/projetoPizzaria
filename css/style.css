@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-  body {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,10 +17,10 @@ html {
 }
 
 .bgfundo {
-  background: url(/) no-repeat center/cover;
+  background: url("../imgpizzas/sloganDrewpizza.png") no-repeat center/cover;
 
-  /*background-color: blue;
-         background-image: url(https://placehold.co/1920x1080);
+  /* background-color: rgb(255, 179, 0);
+         background-image: url(url(../imgpizzas/Drew pizza imagem.jpg));
          background-repeat: no-repeat;
          background-position: center center;
          background-size: cover;*/
@@ -200,9 +200,7 @@ header {
     justify-content: center;
     color: #fff;
   }
- 
 }
-
 
 #Icone {
   display: flex;
@@ -297,12 +295,10 @@ footer {
   padding-top: 50px;
 }
 
-
 #dados {
   display: flex;
   margin: 0 14%;
   justify-content: space-between;
-
 
   & div:first-child {
     margin-left: 10%;
@@ -312,20 +308,16 @@ footer {
     margin: 0;
   }
 
-
   & h4 {
     margin-top: 10px;
   }
 }
-
 
 #copyright {
   margin-top: 50px;
   padding-bottom: 15px;
 }
 
-
 .esquerda {
   text-align: start;
 }
-
